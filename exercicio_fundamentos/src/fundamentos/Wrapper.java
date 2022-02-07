@@ -3,7 +3,7 @@ package fundamentos;
 public class Wrapper {
     
     public static void main(String[] args) {
-        // Whapper é uma classe especial derivada dos tipos primitivos.
+        // Wrappers é uma classe especial derivada dos tipos primitivos.
         // byte = primitivo, Byte = wrapper (aceita métodos)
         Byte b = 100;
         System.out.println(b.byteValue());
