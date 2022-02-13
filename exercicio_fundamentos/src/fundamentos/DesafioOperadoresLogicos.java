@@ -23,8 +23,8 @@ public class DesafioOperadoresLogicos {
         System.out.println("Trabalho na terça deu certo? " + trabalhoTerca);
         System.out.println("Trabalho na quinta deu certo? " + trabalhoQuinta);
         System.out.println("Iremos ao Shopping comprar uma tv e tomar sorvete? " + !ficarEmCasa);
-        System.out.println("Compraremos a TV de 32 polegadas? " + TV32);
-        System.out.println("Compraremos a TV de 50 polegadas? " + TV50);
+        System.out.println("Compraremos a TV de 32\" polegadas? " + TV32);
+        System.out.println("Compraremos a TV de 50\" polegadas? " + TV50);
         
     
     }
