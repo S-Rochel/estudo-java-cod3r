@@ -30,6 +30,8 @@ public class DesafioIfElseIf {
             System.out.println(7);
         } else {
             System.out.println("Erro ao digitar o dia da semana!");
-        }     
+        } 
+        
+        entrada.close();
     }         
 }
