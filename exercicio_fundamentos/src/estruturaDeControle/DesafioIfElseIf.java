@@ -14,11 +14,11 @@ public class DesafioIfElseIf {
         String diaSemana = entrada.next();
 
         // Lógica.
-        if ("DOMINGO".equals(diaSemana.toUpperCase())) {
+        if ("DOMINGO".equalsIgnoreCase(diaSemana)) {
             System.out.println(1);
         } else if ("SEGUNDA-FEIRA".equals(diaSemana.toUpperCase())) {
             System.out.println(2);
-        } else if ("TERÇA-FEIRA".equals(diaSemana.toUpperCase())) {
+        } else if ("TERCA-FEIRA".equals(diaSemana.toUpperCase())) {
             System.out.println(3);
         } else if ("QUARTA-FEIRA".equals(diaSemana.toUpperCase())) {
             System.out.println(4);
