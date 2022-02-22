@@ -9,13 +9,17 @@ public class ClasseDataTeste {
         data1.mes = 4;
         data1.dia = 25;
 
-        ClasseData data2 = new ClasseData();
-        data2.ano = 2018;
-        data2.mes = 10;
-        data2.dia = 31;
+        ClasseData data2 = new ClasseData(31, 10, 2018);
+        // data2.ano = 2018;
+        // data2.mes = 10;
+        // data2.dia = 31;
 
-        System.out.println(data1.dataFormatada());
+        ClasseData data3 = new ClasseData();
+
+        System.out.println(data1.ano + " " + data1.dataFormatada());
         System.out.println();
-        System.out.println(data2.dataFormatada());
+        System.out.println(data2.ano + " " + data2.dataFormatada() + " ");
+        System.out.println();
+        System.out.println(data3.ano + " " + data3.dataFormatada() + " ");
     }    
 }
