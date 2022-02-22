@@ -7,13 +7,13 @@ public class ClasseProdutoTeste {
         // Criar intância de ClasseProduto.
         ClasseProduto p1 = new ClasseProduto("Notebook");
         //p1.nome = "Notebook";
-        p1.preco = 4000.50;
-        p1.desconto = 0.25;
+        p1.preco = 4000.00;
+        // ClasseProduto.desconto = 0.25;
 
         var p2 = new ClasseProduto("Caneta Preta");
         //p2.nome = "Caneta Preta";
-        p2.preco = 12.56;
-        p2.desconto = 0.29;
+        p2.preco = 100.00;
+        // ClasseProduto.desconto = 0.50;
 
         // Acessar os objetos criados.
         System.out.println(p1.precoComDesconto());
