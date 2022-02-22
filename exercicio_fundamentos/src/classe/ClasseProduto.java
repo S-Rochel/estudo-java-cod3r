@@ -7,5 +7,7 @@ public class ClasseProduto {
     double preco;
     double desconto;
 
-    
+    double precoComDesconto() {
+        return preco * (1 - desconto);
+    }
 }

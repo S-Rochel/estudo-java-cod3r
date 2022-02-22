@@ -14,8 +14,8 @@ public class ClasseDataTeste {
         data2.mes = 10;
         data2.dia = 31;
 
-        System.out.printf("A primeira data é: %d/%d/%d", data1.dia, data1.mes, data1.ano);
+        System.out.println(data1.dataFormatada());
         System.out.println();
-        System.out.printf("A segunda data é: %d/%d/%d", data2.dia, data2.mes, data2.ano);
-    }
+        System.out.println(data2.dataFormatada());
+    }    
 }

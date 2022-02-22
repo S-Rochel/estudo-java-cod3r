@@ -16,7 +16,7 @@ public class ClasseProdutoTeste {
         p2.desconto = 0.29;
 
         // Acessar os objetos criados.
-        System.out.println(p1.preco * (1 - p1.desconto));
-        System.out.println(p2.preco * (1 - p2.desconto));
+        System.out.println(p1.precoComDesconto());
+        System.out.println(p2.precoComDesconto());
     }
 }
