@@ -22,6 +22,7 @@ public class ClasseData {
 
     // método retornando uma data formatada como dia/mês/ano.
     String dataFormatada () {
-        return  String.format("Está data é: %d/%d/%d", dia, mes, ano);
+        String formato = "Está data é: %d/%d/%d";
+        return  String.format(formato, dia, mes, ano);
     }
 }
