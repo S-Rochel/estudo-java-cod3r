@@ -1,6 +1,6 @@
 package MetodosEqualsHascode;
 
-import java.util.Date;
+// import java.util.Date;
 
 public class TesteUsuario {
     
@@ -31,6 +31,6 @@ public class TesteUsuario {
         // Fazendo comparação usando ".equals()", com o equals sem receber nenhuma imprementação, a comparação vai ser igual à ==.
         System.out.println("Comparação usando .equals :" + u1.equals(u2));
 
-        System.out.println("Está comparação retornará false: " + u1.equals(new Date())); // retorna false, pois Date é um tipo diferente de Usuario.
+        //System.out.println("Está comparação retornará false: " + u1.equals(new Date())); // retorna false, pois Date é um tipo diferente de Usuario.
     }
 }
