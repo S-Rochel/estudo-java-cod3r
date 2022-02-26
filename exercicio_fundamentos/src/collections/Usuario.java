@@ -22,6 +22,7 @@ public class Usuario {
         result = prime * result + ((nome == null) ? 0 : nome.hashCode());
         return result;
     }
+    
 
     @Override
     public boolean equals(Object obj) {
