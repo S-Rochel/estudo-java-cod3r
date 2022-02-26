@@ -19,6 +19,13 @@ public class Pilha {
 
         
 
+         // Uso do foreach.
+         for (String elemento : pilha) {
+            System.out.println(elemento);
+        }
+
+        
+
         // Métodos que lê o elemento na pilha mas não o retira.
         System.out.println("peek(): " + pilha.peek());
         System.out.println("element(): " + pilha.element());
@@ -38,5 +45,8 @@ public class Pilha {
         // pilha.contains() - verifica se um elemento está na pilha, retorna booleano.
         // pilha.isEmpty(); - verifica se uma pilha está vazia.
 
+
+
+       
     }
 }
