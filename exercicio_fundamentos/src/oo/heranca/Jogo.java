@@ -4,20 +4,24 @@ public class Jogo {
     
     public static void main(String[] args) {
         
-        Jogador j1 = new Jogador();
+        Jogador j1 = new Heroi();
         j1.x = 10;
-        j1.y = 20;
-        j1.andar(Direcao.NORTE);
-        j1.andar(Direcao.NORTE);
-        j1.andar(Direcao.NORTE);
-        j1.andar(Direcao.NORTE);
+        j1.y = 10;
 
-        j1.andar(Direcao.LESTE);
-        j1.andar(Direcao.LESTE);
-        j1.andar(Direcao.LESTE);
-        j1.andar(Direcao.LESTE);
 
-        System.out.println(j1.y);
-        System.out.println(j1.x);
+        Jogador j2 = new Monstro(); // herança
+        j2.x = 10;
+        j2.y = 11;
+        
+        System.out.println("Antes do ataque!");
+        System.out.println("Heroi " + j1.vida + " vidas");
+        System.out.println("Monstro " + j2.vida + " vidas");
+
+        j1.atacar(j2);
+
+        System.out.println();
+        System.out.println("Após o ataque!");
+        System.out.println("Heroi " + j1.vida + " vidas");
+        System.out.println("Monstro " + j2.vida + " vidas");
     }
 }
