@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicaoUmPraUm;
 
 public class Motor {
     // Somente um exemplo para demonstrar uma relação de um para um da classe Motor com a classe Carro.
