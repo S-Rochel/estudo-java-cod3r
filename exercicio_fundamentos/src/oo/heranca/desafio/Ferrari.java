@@ -2,8 +2,16 @@ package oo.heranca.desafio;
 
 public class Ferrari extends Carro {
     
-    // Sobreescrever método acelerar.
+    // construtor 
+    Ferrari() {
+        this(312);
+    }
+
+    Ferrari(int velocidadeMaxima) {
+        super(velocidadeMaxima);
+    }
     
+     // Sobreescrever método acelerar.
     @Override
     void acelerar() {
         super.acelerar();

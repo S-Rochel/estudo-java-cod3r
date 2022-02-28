@@ -6,7 +6,7 @@ public class Jogo {
         
         Jogador j1 = new Heroi(10, 10);
 
-        Jogador j3 = new Monstro(0, 0); // 
+        // Jogador j3 = new Monstro(0, 0); // 
       
         Jogador j2 = new Monstro(); // herança
         j2.x = 10;
