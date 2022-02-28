@@ -4,6 +4,11 @@ public class Heroi extends Jogador {
     
     // Heroi recebe todo o código de Jogador.
 
+    // chama o construtor da classe pai.
+    Heroi(int x, int y) {
+        super(x, y);
+    }
+
     // sobreescrever o método atacar.
     boolean atacar(Jogador oponente) {
         int deltax = Math.abs(x - oponente.x);

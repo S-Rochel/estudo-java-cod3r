@@ -7,6 +7,16 @@ public class Jogador {
     int x;
     int y;
 
+    // Construtor explícito
+    Jogador() {
+        this(0, 0);
+    }
+
+    Jogador(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
     // método para saber se o jogador andou ou nãp.
     boolean andar(Direcao direcao) {
         if(direcao == Direcao.NORTE) {
