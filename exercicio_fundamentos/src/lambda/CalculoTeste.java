@@ -8,5 +8,6 @@ public class CalculoTeste {
 
         calcular = new Multiplicar();
         System.out.println("Multiplicação: " + calcular.executar(2, 3));
+        
     }
 }
