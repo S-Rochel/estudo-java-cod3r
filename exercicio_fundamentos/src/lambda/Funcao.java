@@ -1,4 +1,4 @@
-// Programação funcional - Interfaces Funcionais - Function
+// Interfaces Funcionais - Function
 package lambda;
 
 import java.util.function.Function;
@@ -24,5 +24,7 @@ public class Funcao {
         .andThen(empolgado)
         .apply(30);
         System.out.println(resultadoFinal);
+
+        // Obs: no encadeamento de função a saída de um método deve ser do mesmo tipo da entrada do outro.
     }
 }
