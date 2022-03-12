@@ -1,4 +1,4 @@
-// Interfaces Funcionais - Predicate
+// Funções Lambdas - Interfaces Funcionais - Predicate
 package lambda;
 
 import java.util.function.Predicate;

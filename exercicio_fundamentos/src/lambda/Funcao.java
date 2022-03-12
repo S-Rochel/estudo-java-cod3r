@@ -1,4 +1,4 @@
-// Interfaces Funcionais - Function
+// Funções Lambdas - Interfaces Funcionais - Function
 package lambda;
 
 import java.util.function.Function;
