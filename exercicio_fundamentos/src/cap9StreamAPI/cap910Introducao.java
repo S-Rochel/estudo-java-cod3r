@@ -1,4 +1,4 @@
-// Cap 9.1 Stream API - Introdução
+// Cap 9 Stream API - Introdução
 package cap9StreamAPI;
 
 public class cap910Introducao {
