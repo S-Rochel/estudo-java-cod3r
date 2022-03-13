@@ -1,4 +1,4 @@
-// Cap 9.2 - Map e Stream
+// Cap 9.3 - Map e Stream
 package cap9StreamAPI;
 
 import java.util.Arrays;
