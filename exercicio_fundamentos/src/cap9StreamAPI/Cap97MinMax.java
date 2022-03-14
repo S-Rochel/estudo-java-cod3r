@@ -15,6 +15,7 @@ public class Cap97MinMax {
 
         List<Cap97MinMaxAluno> alunos = Arrays.asList(a1, a2, a3, a4);
 
+        // Usando a Interface Funcional "Comparator":
         Comparator<Cap97MinMaxAluno> compararNota = (aluno1, aluno2) -> {
             if(aluno1.nota > aluno2.nota) return 1;
             if(aluno1.nota < aluno2.nota) return -1;
