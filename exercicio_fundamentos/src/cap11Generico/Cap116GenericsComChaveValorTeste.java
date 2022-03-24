@@ -13,8 +13,8 @@ public class Cap116GenericsComChaveValorTeste {
         resultadoConcurso.adicionar(2, "Rebeca");
 
         System.out.println(resultadoConcurso.getValor(1)); // resp: Maria
-        System.out.println(resultadoConcurso.getValor(2)); // resp: Rebeca
-        System.out.println(resultadoConcurso.getValor(3)); // resp: Gui
-        System.out.println(resultadoConcurso.getValor(4)); // resp: Ana
+        System.out.println(resultadoConcurso.getValor(2)); // resp: Maria
+        System.out.println(resultadoConcurso.getValor(3)); // resp: Maria
+        System.out.println(resultadoConcurso.getValor(4)); // resp: Maria
     }
 }

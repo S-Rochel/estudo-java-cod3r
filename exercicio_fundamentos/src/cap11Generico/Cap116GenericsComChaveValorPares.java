@@ -1,17 +1,17 @@
 // Cap 11.6 - Criando uma Estrutura Chave/Valor com Generics.
 package cap11Generico;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Optional;
 import java.util.Set;
-import java.util.TreeSet;
+
 
 public class Cap116GenericsComChaveValorPares <C extends Number, V>{
 
     // Criar um atributo Set do tipo par, de maneira que seja respeitado a ordem de inserção (TreeSet()) assim:
     // private final Set <Cap116GenericsComChaveValorPar<String, Boolean>> itens = new TreeSet<>();
     // ou assim: "obs, assim precisa colocar a notação de tipo Generics na classe (<C extends Number, V>), extends Number restringe que a chave só poderá ser do tipo Number"
-    private final Set<Cap116GenericsComChaveValorPar<C, V>> itens = new HashSet<>(); // obs: Set não aceita duplicidade
+    private final Set<Cap116GenericsComChaveValorPar<C, V>> itens = new LinkedHashSet(); // obs: Set não aceita duplicidade
 
 
     public void adicionar(C chave, V valor) {
