@@ -42,5 +42,14 @@ public class AniversarioSurpresa {
     
     public static void main(String[] args) {
         
+        // Para executar o evento, vamos primeiramente estânciar:
+        Namorada namorada = new Namorada();
+        Porteiro porteiro = new Porteiro();
+
+        // Após estânciar a namorada e o porteiro, registrar a namorada no porteiro, para que ela seja notificada da chegada do namorado:
+        porteiro.addChegadaAniversarianteObserver(namorada);
+
+        // Por último fazer o porteiro monitorar os eventos:
+        porteiro.start(); 
     }
 }
